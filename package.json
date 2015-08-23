@@ -1,0 +1,26 @@
+{
+  "name": "pm2start",
+  "version": "1.0.0",
+  "description": "a pm2 api wrapper",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/duminhtam/pm2Start.git"
+  },
+  "keywords": [
+    "npmstart"
+  ],
+  "author": "tamdu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duminhtam/pm2Start/issues"
+  },
+  "homepage": "https://github.com/duminhtam/pm2Start#readme",
+  "dependencies": {
+    "pm2": "^0.14.7",
+    "shelljs": "^0.5.3"
+  }
+}
