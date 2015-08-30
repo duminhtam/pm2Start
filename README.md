@@ -50,3 +50,19 @@ pm2Start:
         PORT: 0
 
 ```
+coffee config
+
+```
+module.exports =
+  pm2Start:
+    apps:
+      'myapp.coffee': [
+        {
+        'nodename': 'myHackingApp'
+        'max_memory_restart': '100M'
+        'instances': 1
+        'exec_mode': 'cluster'
+        }
+      ]
+      
+```
